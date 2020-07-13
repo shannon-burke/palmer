@@ -1,0 +1,67 @@
+#missionStatement {
+    height: 100vh;
+}
+
+#mission-statement-col {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.page-divider {
+
+    height: 50px;
+    background-image: linear-gradient(45deg, rgb(190, 248, 79) 0%, rgb(190, 248, 79) 36%,rgb(148, 210, 77) 36%, rgb(148, 210, 77) 44%,rgb(106, 173, 75) 44%, rgb(106, 173, 75) 51%,rgb(64, 135, 72) 51%, rgb(64, 135, 72) 82%,rgb(22, 97, 70) 82%, rgb(22, 97, 70) 100%);
+}
+
+.section-header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service-title {
+    text-align: center;
+}
+
+#services-div {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    background-image: url("./images/banner1.jpg");
+    background-color: #cccccc;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: auto;
+    padding bottom: auto;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+    height: 20%;
+    width: 50%;
+    background-color: blueviolet;
+  }
+
+
+/* 
+.carousel-img {
+    max-height: 100vh;
+}
+
+  .carousel-inner {
+      position: relative;
+  } */
